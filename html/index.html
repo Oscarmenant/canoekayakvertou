@@ -10,18 +10,21 @@
     <body>
 
         <!-- crreate header with dropdown and button -->
-        <header class="row align-items-center">
-            <div class="col-7">            
+        <header id="ckv"class="row align-items-center">
+            <div class="col-7">          
                 <h2 class="title"> Canoe-kayak-vertou </h2>
-            </div>             
+            </div>           
             <div class="col-5">
-                <a class="btn btn-primary" id="connexion" href="connexion-page.html" role="button">Se connecter </a>                
+                <a class="btn btn-primary" id="home" href="#" role="button">Accueil </a>                
             </div>                
         </header>
+        
+        
 
         <!-- group list with href="#"-->
 
         <main>
+            <div class="spacing"></div>            
             <article class="row justify-content-center">            
                 <nav class="d-grid gap-5 justify-content-center col-12 col-sm-8 col-lg-6 ">        
                     <div class="list-group p-2 bg-light border">
@@ -30,7 +33,6 @@
                                 <h5 class="mb-1">Activités du club </h5>
                             </div>
                         <p class="mb-1"></p>
-                        </a>
                         </a>
                         <a href="#Reserver-une-location" class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-center">
@@ -41,8 +43,7 @@
                         <a href="#ou-nous-trouver" class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-center">
                                 <h5 class="mb-1">Où nous trouver ? </h5>
-                            </div>
-                        
+                            </div>                        
                         </a>
                         <a href="index-two.html" class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-center">
@@ -68,7 +69,7 @@
                         <div class="col-10 col-sm-8 col-lg-6">
                         <div class="card m-2">
                             <div class="card-body shad">
-                            <h5 class="card-title"> Slalom </h5>
+                            <h5 class="card-title">Slalom </h5>
                             <p class="card-text">Le slalom est une des disciplines du canoë-kayak, se pratiquant généralement en eau vive <br>
                                                 le but étant de passer entre des portes le plus rapidement possible en évitant de les toucher. <br>
                                                 a la fois physique et technique il ravira les mordu de sensations forte et d'excellence.   </p>                         
@@ -80,7 +81,7 @@
                         <div class="col-10 col-sm-8 col-lg-6">
                         <div class="card m-2">
                             <div class="card-body shad">
-                            <h5 class="card-title"> Descente De Rapide</h5>
+                            <h5 class="card-title">Descente De Rapide</h5>
                             <p class="card-text">La descente est une des disciplines du canoë-kayak, se pratiquant en eaux vives.</p>
                             </div>
                         </div>
@@ -91,21 +92,21 @@
                 <section>
                     <h2 class="row m-4 justify-content-center" id="Reserver-une-location"> Réserver une location</h2>
                     <div class="row m-2">
-                        <div class="card col-4">
+                        <div class="card text-center text-white bg-dark mb-3 col-4 col-sm-12 col-lg-12">
                             <div class="card-body">
                                 <h5 class="card-title"> Réservation  1 heure</h5>
                                 <p> A partir de 10euros</p>
                                 <a href="#" class="btn btn-primary">je réserve</a>
                             </div>
                         </div>
-                        <div class="card col-4">
+                        <div class="card text-center text-white bg-dark mb-3 col-4 col-sm-6 col-lg-6">
                             <div class="card-body">
                                 <h5 class="card-title">Réservation  2 heures </h5>
                                 <p> A partit de 14 euros</p>
                                 <a href="#" class="btn btn-primary">je réserve</a>
                             </div>
                         </div>
-                        <div class="card col-4">
+                        <div class="card text-center text-white bg-dark mb-3 col-4 col-sm-6 col-lg-6">
                             <div class="card-body">
                                 <h5 class="card-title"> Réservation demi-journée</h5>
                                 <p> A partir de 20 euros </p>
@@ -114,9 +115,12 @@
                         </div>    
                     </div>                                          
                 </section>
-                <section>
 
-                </section>
+                <!-- Map -->
+                <aside>
+                    <h2 class="row justify-content-center m-4" id="ou-nous-trouver"> Où nous trouver ?</h2>
+                    <iframe class="justify-content-center"   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.0862776322065!2d-1.479274991158491!3d47.16168545041116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805e87e425f4209%3A0x4a0716ac390f2576!2sParc%20du%20Loiry!5e0!3m2!1sfr!2sfr!4v1611714682895!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </aside>
             </article>
         </main>
     </body>
