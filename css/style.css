@@ -1,23 +1,37 @@
 header {
     height: 100px;
+    width: 103%;
     background-color:rgb(9, 115, 148);
-    box-shadow: 10px 10px 10px 10px rgb(63, 61, 61);
+    box-shadow: 0px 30px 10px -15px rgb(63, 61, 61);
+    position: fixed;
+    z-index: 1;
     
    
 }
 
-h2 {
+.title {
     padding-left : 20px;
     color : white;
 }
-#connexion {
+#home {
     float :right;
     margin-left: 30px;
-    margin-right: 30px;
-    
+    margin-right: 30px;   
 }
+
 
 nav {
     margin-top: 50px;
 }
 
+section {
+    width: 100%;
+}
+
+.spacing {
+    height: 100px;
+}
+
+.shad {
+    border: 4px ridge rgb(9, 115, 148)
+}
